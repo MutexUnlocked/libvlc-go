@@ -1,1 +1,1 @@
-module github.com/adrg/libvlc-go
+module github.com/MutexUnlocked/libvlc-go

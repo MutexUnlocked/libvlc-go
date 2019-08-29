@@ -1,13 +1,13 @@
 libvlc-go
 =========
-[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/adrg/libvlc-go)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/MutexUnlocked/libvlc-go)
 [![License: MIT](http://img.shields.io/badge/license-MIT-red.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 Provides golang bindings for libvlc version 2.X/3.X/4.X. This is a work in
 progress and it is not safe for use in a production environment. The current
 implementation contains only a small portion of libvlc's functionality.
 
-Full documentation can be found at: http://godoc.org/github.com/adrg/libvlc-go
+Full documentation can be found at: http://godoc.org/github.com/MutexUnlocked/libvlc-go
 
 ## Prerequisites
 In order to use this project you need to have libvlc-dev installed. On Debian
@@ -18,7 +18,7 @@ sudo apt-get install libvlc-dev
 
 ## Installation
 ```
-go get github.com/adrg/libvlc-go
+go get github.com/MutexUnlocked/libvlc-go
 ```
 
 ## Build for libvlc < v3.0.0
@@ -36,7 +36,7 @@ package main
 import (
     "log"
 
-    vlc "github.com/adrg/libvlc-go"
+    vlc "github.com/MutexUnlocked/libvlc-go"
 )
 
 func main() {
@@ -102,7 +102,7 @@ package main
 import (
     "log"
 
-    vlc "github.com/adrg/libvlc-go"
+    vlc "github.com/MutexUnlocked/libvlc-go"
 )
 
 func main() {
@@ -181,7 +181,7 @@ Contributions in the form of pull requests, issues or just general feedback,
 are always welcome.
 
 **Contributors**:
-[adrg](https://github.com/adrg),
+[MutexUnlocked](https://github.com/MutexUnlocked),
 [fenimore](https://github.com/fenimore),
 [tarrsalah](https://github.com/tarrsalah),
 [danielpellon](https://github.com/danielpellon),
